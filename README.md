@@ -69,7 +69,7 @@ How to
 
 At the command line (assuming you've installed Saxon-HE) and you're sitting in the top level "your-directory-name" (see above), you can run the transform with something like the following to get one of our DCLP example files transformed with whatever combination of XSLT files from the PN and EpiDoc repositories you have sitting in your local sandboxes:
 
-    saxon -xsl:navigator/pn-xslt/MakeHTML.xsl -o:/dclpxsltbox/output/DCLP/81/80756.html -s:idp.data/DCLP/81/80756.xml collection="dclp" analytics="no" cssbase="../../css" jsbase="../../js"
+    saxon -xsl:navigator/pn-xslt/MakeHTML.xsl -o:/dclpxsltbox/output/dclp/81/80756.html -s:idp.data/DCLP/81/80756.xml collection="dclp" analytics="no" cssbase="../../css" jsbase="../../js"
 
 If you want to make sure you haven't messed up the stylesheets for one of the existing collections, try something like:
 
